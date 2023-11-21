@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .thing{
+    color: black;
+  }
+  .desc{
+    color: red;
+  }
+  .zorldo{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 145, 0);
+  }
