@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, Route } from "react-router-dom"
 export default function Bosses(props) {
   const boss = [
     {caliber: "bosses", name: "Fireblight Ganon"},
@@ -10,7 +10,7 @@ export default function Bosses(props) {
       {boss.map((cap) => {
         const {name, caliber} = cap;
         return(
-          <Link to={`/info/${caliber}`}>
+          <Link to={`/Info`}>
           <h2>{name}</h2>
           </Link>
         );

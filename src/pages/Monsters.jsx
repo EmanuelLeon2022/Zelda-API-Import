@@ -7,10 +7,10 @@ export default function Monsters(props) {
   ];
   return (
     <div className="boss">
-      {boss.map((cap) => {
-        const {name, caliber} = cap;
+      {boss.map((sul) => {
+        const {name} = sul;
         return(
-          <Link to={`/info/${caliber}`}>
+          <Link to={`/Info`}>
           <h2>{name}</h2>
           </Link>
         );

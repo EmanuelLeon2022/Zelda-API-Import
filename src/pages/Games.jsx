@@ -10,7 +10,7 @@ export default function Games(props){
       {boss.map((cap) => {
         const {name, caliber} = cap;
         return(
-          <Link to={`/info/${caliber}`}>
+          <Link to={`/Info/`}>
           <h2>{name}</h2>
           </Link>
         );

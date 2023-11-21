@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Games from './pages/Games'
 import Monsters from './pages/Monsters'
 import Bosses from './pages/Bosses'
+import Info from './pages/Info'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
             <Route path="/Games" element={<Games/>}/>
             <Route path="/Monsters" element={<Monsters/>}/>
             <Route path="/Bosses" element={<Bosses/>}/>
+            <Route path='/Info' element={<Info/>}/>
         </Routes>
 
     </div>
